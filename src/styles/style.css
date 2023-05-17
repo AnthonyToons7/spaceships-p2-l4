@@ -1,0 +1,33 @@
+* {
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #383838;
+    color: #fff;
+}
+p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    font-size: 19px;
+    font-family: Cambria;
+}
+.battle-phase{
+    display: block;
+    color: rgb(255, 186, 186);
+}
+.fleet1 {
+    display: flex;
+    color: rgb(0, 217, 255);
+}
+.fleet2 {
+    display: flex;
+    color: rgb(142, 255, 142);
+}
+.leaderboard {
+    color: yellow;
+    font-size: 20px;
+}
